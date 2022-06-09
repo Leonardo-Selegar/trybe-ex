@@ -1,0 +1,13 @@
+h1, p{
+    text-align: center;
+}
+li:hover{
+    background-color: aqua;
+}
+li:active{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+ul, ol{
+    list-style: none'
+}
