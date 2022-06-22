@@ -5,5 +5,3 @@ for(let cont = 0; cont <numbers.length; cont++) {
   numeroMax = Math.max(numeroMax,numbers[cont]);
 }
 console.log(numeroMax);
-
-
