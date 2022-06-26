@@ -3,6 +3,7 @@ const n2 = 22323;
 const n3 = 2323;
 
 //forma de fazer complicada com muito if kkkkk
+
 // if (n1 > n2 && n1 > n3){
 //     console.log('O numero 1 é maior');
 // }else if(n2 > n1 && n2 > n3){
