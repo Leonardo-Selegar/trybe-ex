@@ -1,4 +1,4 @@
-let peça = 'RaiNha';
+let peça = 'Rainha';
 
 switch(peça.toLowerCase()){
     case 'rei':
