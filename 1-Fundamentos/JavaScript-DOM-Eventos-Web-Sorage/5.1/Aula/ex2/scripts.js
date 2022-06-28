@@ -4,6 +4,6 @@ paragraph.style.color = "red";
 const subtitle = document.getElementsByTagName('h4')[0];
 subtitle.style.color = "blue";
 
-console.log(document.getElementsByClassName('paragraph'))
+console.log(document.getElementsByClassName('paragraph'));
 
-console.log(document.getElementsByTagName('subtitle'))
+console.log(document.getElementsByTagName('subtitle'));
