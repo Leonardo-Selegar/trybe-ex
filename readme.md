@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [:white_check_mark:] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [:white_check_mark:] 3-4: _HTML Semântico_
-- [:white_check_mark:] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-024-a-project-lessons-learned/tree/leonardo-selegar-lessons-leaned)_
+- [:white_check_mark:] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-024-a-project-lessons-learned/tree/leonardo-selegar-lessons-leaned) - 💯% obrigatórios | 💯% facultativos_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 4-2: _JavaScript - Array e loop For_
 - [:white_check_mark:] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [:white_check_mark:] 4-4: _JavaScript - Objetos e funções_
-- [:white_check_mark:] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-024-a-project-playground-functions/tree/leonardo-selegar-project-playground-functions)_
+- [:white_check_mark:] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-024-a-project-playground-functions/tree/leonardo-selegar-project-playground-functions) - 💯% obrigatórios | 💯% facultativos_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -42,7 +42,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 5-3: _JavaScript - Eventos_
 - [:white_check_mark:] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
-- [:white_check_mark:] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-024-a-project-pixels-art/tree/leonardo-selegar-project-pixels-art)_
+- [:white_check_mark:] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-024-a-project-pixels-art/tree/leonardo-selegar-project-pixels-art) - 💯% obrigatórios_
 - [ ] 5-7: _[Projeto - Lista de tarefas]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
