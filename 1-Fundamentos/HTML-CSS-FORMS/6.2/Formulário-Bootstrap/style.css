@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.formulário, .header{
+    margin: 40px auto;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: #E1E5EB;
+}
+body {
+    color: #999999;
+    font-size: 20px;
+    background-color: #2FC18C;
+}
+
+.header {
+    text-align: center;
+}
+

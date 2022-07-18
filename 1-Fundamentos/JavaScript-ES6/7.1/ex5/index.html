@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<body>
+  <div>
+    <span id="texto"></span>
+  </div>
+  <button id="button">click aqui!</button>
+</body>
+<script>
+  let click = 0;
+  const texto = document.getElementById('texto');
+  const button = document.getElementById('button');
+
+  button.addEventListener('click', () => texto.innerHTML = click += 1);
+</script>
+</html>
