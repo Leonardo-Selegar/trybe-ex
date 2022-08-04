@@ -66,14 +66,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 8: JavaScript ES6
 
 - [:white_check_mark:] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [:white_check_mark:] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [:white_check_mark:] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [:white_check_mark:] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [:white_check_mark:] 8-5: _[Projeto - Zoo functions]()_
+
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [:white_check_mark:] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Promises_
 - [ ] 9-3: _[Projeto - Carrinho de Compras]()_
 
@@ -84,7 +86,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 
