@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 1
+      const paragrafo1 = document.createElement("h1");
+      paragrafo1.innerText = "Exercício 5.2 - JavaScript DOM";
+      document.body.appendChild(paragrafo1);
+      // 2
+      const principal = document.createElement("main");
+      principal.className = "main-content";
+      document.body.appendChild(principal);
+      // 3
+      const secao = document.createElement("section");
+      secao.className = "center-content";
+      principal.appendChild(secao);
+      // 4
+      const paragrafoSecao = document.creatElemente("p");
+      paragrafoSecao.innerHTML = "Esse é o texto";
+      secao.appendChild(paragrafoSecao);
+      // 5
+      const secaoLeft = document.creatElemente("section");
+      secaoLeft.className = "left-content";
+      principal.appendChild(secaoLeft);
+      // 6
+      const secaoRight = document.creatElemente("section");
+      secaoRight.className = "right-content";
+      principal.appendChild(secaoRight);
+      // 7
+      const imagem = document.createElement("img");
+      imagem.className = "small-image";
+      imagem.src = "https://picsum.photos/200";
+      secaoLeft.appendChild(imagem);
+      // 8
+      const listaUL = document.createElement("ul");
+      secaoRight.appendChild(listaUL);
+      let arrayNumeros = [
+        "Um",
+        "Dois",
+        "Três",
+        "Quatro",
+        "Cinco",
+        "Seis",
+        "Sete",
+        "Oito",
+        "Nove",
+        "Dez",
+      ];
+      for (let index = 0; index < arrayNumeros.length; inde += 1) {
+        const elementosLi = document.createElement("li");
+        elementosLi.innerHTML = arrayNumeros[index];
+        listaUL.appendChild(elementosLi);
+      }
+      // 9
+      for (let index = 0; index < arrayNumeros.length; inde += 1) {
+        const criaH3 = document.createElement("h3");
+        criaH3.innerHTML = "Eu sou a tag h3." + index;
+        principal.appendChild(criaH3);
+      }
+
+      // 1
+      const titulo = document.querySelector('h1');
+      titulo.className = 'title';
+      // 2
+      const elementosH3 = document.getElementsByTagName('h3');
+      for (let index = 0; index < 3; index += 1) {
+        elementosH3[index].className = 'description';
+      }
+      // 3
+      const sectionLeftContent = document.getElementsByClassName('left-content')[0];
+      principal.removeChild(sectionLeftContent);
+      // 4
+      const centralizaSection = document.getElementsByClassName('right-content')[0];
+      centralizaSection.style.marginRight = 'auto';
+      // 5
+      const corFundoPai = document.getElementsByClassName('center-content')[0];
+      corFundoPai.parentNode.style.backgroundColor = 'green';
+      // 6 
+      const ul = document.getElementsByTagName('ul')[0];
+      ul.lastChild.remove();
+      ul.lastChild.remove();
+    </script>
+  </body>
+</html>
