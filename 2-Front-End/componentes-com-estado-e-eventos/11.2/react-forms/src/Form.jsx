@@ -1,29 +1,23 @@
-import React from "react";
+import React from "react"
+import EstadoFavorito from './EstadoFavorito'
 
 class Form extends React.Component {
   state = {
     estadoFavorito: "",
     name: "",
     email: "",
+    age: "",
+    vaiComparecer: false,
   };
 
-  handleChangeEstado = (event) => {
+  handleChange = ({target}) => {
+    const { name } = target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
     this.setState({
-      estadoFavorito: event.target.value,
+      [name]: value,
     });
   };
 
-  handleChangeName = (event) => {
-    this.setState({
-        name: event.target.value,
-    });
-  };
-
-  handleChangeEmail = (event) => {
-    this.setState({
-        email: event.target.value,
-    });
-  };
   render() {
     return (
       <div>
@@ -31,15 +25,7 @@ class Form extends React.Component {
           Estados e React - Tecnologia fantástica ou reagindo a regionalismos?
         </h1>
         <form className="form">
-          <label>
-            Diga qual o seu Estado favorito! De React ou do Brasil, você decide!
-            =)
-            <textarea
-              name="estadoFavorito"
-              value={this.state.estadoFavorito}
-              onChange={this.handleChangeEstado}
-            />
-          </label>
+          <EstadoFavorito value={this.state.estadoFavorito} handleChange={this.handleChange} />
           <label htmlFor="name">
             Nome:
             <input
@@ -47,7 +33,7 @@ class Form extends React.Component {
                 name="name"
                 type="text"
                 value={this.state.name}
-                onChange={this.handleChangeName}
+                onChange={this.handleChange}
             />
           </label>
           <label htmlFor="email">
@@ -57,7 +43,7 @@ class Form extends React.Component {
                 name="email"
                 type="text"
                 value={ this.state.email }
-                onChange={ this.handleChangeEmail }
+                onChange={ this.handleChange }
               />
             </label>
             <label htmlFor="age">
@@ -65,6 +51,8 @@ class Form extends React.Component {
               <select
                 id="age"
                 name="age"
+                value={this.state.age}
+                onChange={this.handleChange}
                 defaultValue=""
               >
                 <option value="">Selecione</option>
@@ -72,11 +60,16 @@ class Form extends React.Component {
                 <option value="underage">Menor que 18</option>
               </select>
             </label>
-
-            <label htmlFor="anecdote">
-              Anedota:
-              <textarea id="anecdote" name="anecdote" />
-            </label>
+            <input
+              type="checkbox"
+              name="vaiComparecer"
+              value={this.state.vaiComparecer}
+              onChange={this.handleChange}
+            />
+            <fieldset>
+            <legend>Escolha um arquivo</legend>
+              <input type="file" />
+            </fieldset>
         </form>
       </div>
     );
